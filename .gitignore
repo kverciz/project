@@ -6,7 +6,6 @@
 
 #Ignore byond config folder.
 cfg/**/*
-config/**/*
 
 
 
@@ -209,7 +208,6 @@ tools/CreditsTool/obj/*
 
 #GitHub Atom
 .atom-build.json
-config/game_options.txt
 
 #KDevelop and Kate
 *.kdev4*
@@ -221,14 +219,6 @@ config/game_options.txt
 
 #dmdoc default folder
 /dmdoc
-
-# Ignore custom music and title screens (amend as appropriate)
-/config/jukebox_music/sounds/*
-!/config/jukebox_music/sounds/exclude
-/config/title_music/sounds/*
-!/config/title_music/sounds/exclude
-/config/title_screens/images/*
-!/config/title_screens/images/exclude
 
 #Linux docker
 tools/LinuxOneShot/SetupProgram/obj/*
